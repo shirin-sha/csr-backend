@@ -1,0 +1,11 @@
+.questionWrapper{
+    display:flex;
+justify-content: space-between;
+
+}
+.question{
+   width: 500px;
+}
+.arrow{
+    z-index: 22;
+}

@@ -1,0 +1,13 @@
+server/node_modules
+server/dist
+server/.env
+server/uploads
+server/images
+server/images/thumbnails
+client/node_modules
+client/README.md
+client/package-lock.json
+server/package-lock.json
+client/build
+client/build copy
+

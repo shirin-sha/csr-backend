@@ -1,0 +1,34 @@
+.react-confirm-alert .custom-ui {
+  width: 352px;
+  height: 200px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.react-confirm-alert .custom-ui .msgContainer {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+}
+.react-confirm-alert .custom-ui .msgContainer .message {
+  font-size: medium;
+}
+.react-confirm-alert .custom-ui .row {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+}
+.react-confirm-alert .custom-ui .row .button {
+  width: 100px;
+  height: 35px;
+  align-items: flex-end;
+}
+.react-confirm-alert .custom-ui .row .btn1 {
+  margin-right: auto;
+}
+.react-confirm-alert .custom-ui .row .btn2 {
+  margin-left: auto;
+}/*# sourceMappingURL=popup.css.map */

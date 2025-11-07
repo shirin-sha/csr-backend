@@ -1,0 +1,618 @@
+.corporateForm {
+    width: 100% !important;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+  }
+  .registerBackground {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)),
+        url("/assets/businessPicture.png"); */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+  }
+  .validateMessage {
+    width: 100%;
+  }
+  .formHeading {
+    padding-bottom: 10px;
+  }
+  .companySecValidate {
+    width: 90%;
+  }
+  .contactPersonValidate {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  .condition {
+    font-size: 12px;
+  }
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+  }
+  .errorMessageSubmit{
+    color: red; 
+    font-size: 12px;
+    text-align: center;
+    margin-right: auto;
+    align-self: center;
+    margin: auto;
+  }
+  .registerContent {
+    display: flex;
+    justify-content: left;
+  }
+  .section1 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+  }
+  .section1 h3 {
+    margin-top: 30px;
+  }
+  .section1 p {
+    margin-top: 30px;
+  }
+  .loopLogo {
+    position: relative;
+    aspect-ratio: 1/1;
+    width: 40px;
+  }
+  .section2 {
+    width: 100%;
+  }
+  .hybridForm {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px!important;
+    width: 600px!important;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #CCCCCC;
+    
+    flex-direction: column;
+    align-items: center;
+    padding:30px 20px;
+  }
+  .tabType {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+  }
+  .tabTypeIndividual,
+  .tabTypeCorporate {
+    padding: 4px 40px;
+    background: #d9d9d9;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .tabTypeIndividual {
+    border-radius: 5px 1px 1px 5px;
+  }
+  .tabTypeCorporate {
+    border-radius: 1px 5px 5px 1px;
+  }
+  .individualForm {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+  .individualFormErrorMessage {
+    width: 100%;
+    color: red;
+    text-align: center;
+  }
+  .formContent1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 35px;
+    align-items: center;
+  }
+  
+  .fields {
+    display: flex;
+    background-color: aqua;
+  }
+  .fieldSection1 .fieldSection2 {
+  }
+  .accept {
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkBox {
+    width: 15px;
+    height: 15px;
+    background-color: #d9d9d9;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .accept input {
+    cursor: pointer;
+    display: none;
+  }
+  .accept p {
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5px;
+  }
+  .accept span {
+    color: #9e8959;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+  
+  /* grid1 */
+  .formContentGrid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+  }
+  
+  .formContentGrid1 input {
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    padding: 8px;
+  }
+  .formContentGrid1 span {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.78);
+  }
+  .payAndPublish {
+    background-color: #9e8959;
+    cursor: pointer;
+    color: #fff;
+    width: 70%;
+    font-weight: 550;
+    border-radius: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-size: 15px;
+    display: block;
+    transition: 0.5s ease;
+    border: 1px solid #9e8959;
+  }
+  .payAndPublish:hover {
+    background-color: #525251;
+    border: 1px solid #525251;
+    transform: scale(1.01);
+  }
+  
+  .already {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .already span {
+    color: #9e8959;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+  
+  .formContent2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  .formFlex {
+    display: flex;
+  }
+  .companySec {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mainflex {
+    display: flex !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  
+  .companytext {
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #CCC;
+    
+    margin-top: 4px;
+    padding: 8px;
+    border-radius: 3px;
+   
+  }
+  
+  .textandlabel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .textspan {
+    color: #000000a6;
+  
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  .contactpersontitle {
+    font-size: 14px;
+    padding-bottom: 7px;
+    color: #9e8959;
+  }
+  
+  .contactPersonDetail1 {
+    display: inline;
+  }
+  .contactPersonDetail2 {
+    display: none;
+  }
+  /* grid2 */
+  .formContentGrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 3fr auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+  }
+  
+  .overlappedFields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .overlappedFields input {
+    width: 100%;
+    /* height: 48%; */
+  }
+  .fileSelection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 4px;
+  
+    position: relative;
+  }
+  
+  .fileSelection .browseButtonWrap {
+    display: flex;
+    justify-content: right;
+    background: white;
+    box-shadow: 0 0 1pt 0.1pt #d3d3d3;
+  }
+  .fileSelection .browseButtonWrap span {
+    color: #fff;
+    background-color: #9e8959;
+    outline: none;
+    border: none;
+    padding: 6px 4px;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .fileSelected {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(204, 204, 204, 0.83);
+    border-radius: 2px;
+    margin-top: 8px;
+    padding: 4px 4px;
+    align-items: center;
+  }
+  .fileSelected span {
+    font-size: 12px;
+  }
+  .actionButtons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .actionButtons span {
+    margin: 0 1px;
+    color: #fff;
+    background-color: #525251;
+    padding: 3px 9px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .formContentFlex1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .formContentWrapDiv1,
+  .formContentWrapDiv2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* padding: 5px 0px 26px 5px; */
+    padding: 10px 10px 1px 10px;
+    /* padding:5px;
+    padding-right: 24px; */
+  }
+  /* .formContentWrapDiv1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 5px 10px 26px 5px;
+  } */
+  .formContentWrapDiv1 span,
+  .formContentWrapDiv2 span {
+    /* width: 35%; */
+    width: 50%;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.78);
+    font-size: 14px;
+  }
+  
+  .formContentWrapDiv1 input,
+  .formContentWrapDiv2 input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 3px;
+   
+  }
+  .categoryinput{
+    background: white;
+    
+  
+    padding: 4px !important;
+    border-radius: unset;
+    height: 35px;
+    border-radius: 4px;
+    color: black;
+    font-size: 12px;
+    width: 100%;
+    outline: none;
+  
+    border: 1px solid #CCC;
+    font-size: 12px;
+  }
+  .formContentWrapDiv1 select,
+  .formContentWrapDiv2 select {
+    background: white;
+    border: 1px solid #CCC;
+  
+    padding: 4px !important;
+    border-radius: unset;
+    height: 35px;
+    border-radius: 3px;
+    color: black;
+    font-size: 12px;
+    width: 100%;
+    outline: none;
+  
+    
+    font-size: 12px;
+    /* box-shadow: 0 0 2pt 0.3pt #d3d3d3da; */
+  }
+  .selector {
+    background: white;
+  
+    border-radius: unset;
+    height: 35px;
+    border-radius: 2px;
+    color: black;
+    box-shadow: 0 0 1pt 0.1pt #d3d3d3;
+  }
+  .contactPeson{
+    padding-left: 20px;
+  }
+  @media screen and (max-width: 1120px) and (min-width: 901px) {
+    .mainflex {
+      flex-wrap: wrap;
+    }
+    .companySec {
+      width: 60%;
+    }
+    .textandlabel {
+      width: 100%;
+    }
+    .textspan {
+      width: 50%;
+      font-size: 10px;
+    }
+  
+    .contacttext {
+      width: 100%;
+      border: 1px solid #525251;
+      box-shadow: 0 0 1pt 0.1pt #d3d3d3;
+    }
+    .fileSelection {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 660px) {
+    .individualForm {
+      width: 100%;
+    }
+    .formContentWrapDiv2 input[type="date"] {
+      height: 30px;
+      width: unset;
+  
+      width: 75vw;
+      color: black;
+    }
+    .formContentWrapDiv2 input[type="date"]-webkit-calendar-picker-indicator {
+      -webkit-appearance: none;
+      display: none;
+      text-align: unset;
+      text-align: center !important;
+      text-decoration: none;
+    }
+    .companySecValidate {
+      width: 100%;
+    }
+    .formContent2 {
+      padding-top: 20px;
+    }
+    .formContent1 {
+      padding-top: 16px;
+    }
+    .contactDet {
+      width: 100%;
+    }
+    .mainflex {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .contactpersontitle {
+      padding-top: 20px;
+    }
+    /* grid1 */
+    .formContentGrid1 {
+      grid-template-columns: 100%;
+      width: 100%;
+    }
+    .companySec {
+      padding-right: 0;
+      width: 100%;
+    }
+    .textandlabel {
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 8px;
+    }
+    .fileSelection {
+      width: 100%;
+      max-width: none;
+    }
+    .textspan {
+      width: 100%;
+    }
+    .companytext {
+      width: 100%;
+    }
+  
+    .bottomSec {
+      width: 1000px;
+      height: 600px;
+      background: red;
+    }
+    .contactPersonDetail1 {
+      display: none;
+    }
+    .contactPersonDetail2 {
+      display: inline;
+    }
+    /* grid1 */
+    .formContentGrid2 {
+      grid-template-columns: 100%;
+      grid-template-rows: none;
+  
+      width: 100%;
+    }
+  
+    .formContentFlex1 {
+      flex-direction: column;
+      width: 100%;
+    }
+    .formContentWrapDiv1,
+    .formContentWrapDiv2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      padding: 5px 10px 8px 5px;
+      color: black;
+    }
+  
+    .formContentWrapDiv1 span,
+    .formContentWrapDiv2 span {
+      width: 100%;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.78);
+    }
+  
+    .formContentWrapDiv1 input,
+    .formContentWrapDiv2 input {
+      width: 100%;
+  
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    .formContentWrapDiv1 select,
+    .formContentWrapDiv2 select {
+      width: 100%;
+  
+      border: 1px solid #ccc;
+      padding: 8px;
+      color: black;
+    }
+    .contactPeson{
+      padding-left: 0;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .tabType {
+      display: flex;
+      width: 100%;
+      /* background-color: aqua; */
+    }
+    .tabTypeIndividual,
+    .tabTypeCorporate {
+      padding: 4px 20px;
+      background: #d9d9d9;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 100%;
+      text-align: center;
+    }
+    .tabTypeIndividual {
+      border-radius: 5px 1px 1px 5px;
+    }
+    .tabTypeCorporate {
+      border-radius: 1px 5px 5px 1px;
+    }
+  }
+  
+  @media screen and (max-width: 385px) {
+    .tabType {
+      display: flex;
+      width: 100%;
+      /* background-color: aqua; */
+    }
+    .tabTypeIndividual,
+    .tabTypeCorporate {
+      padding: 4px 10px;
+      background: #d9d9d9;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 100%;
+      text-align: center;
+      font-size: 15;
+    }
+    .hybridForm {
+      padding-top: 10px;
+    }
+    .tabTypeIndividual {
+      border-radius: 5px 1px 1px 5px;
+    }
+    .tabTypeCorporate {
+      border-radius: 1px 5px 5px 1px;
+    }
+  }
+  
