@@ -1,0 +1,20 @@
+[phases.setup]
+nixPkgs = ['nodejs_20', 'npm']
+
+[phases.install]
+cmds = [
+  "cd server && npm install"
+]
+
+[phases.build]
+cmds = [
+  "cd server && npm run build",
+  "cd client && npm install --legacy-peer-deps",
+  "cd client && npm run build",
+  "rm -rf server/client/build",
+  "cp -r client/build server/client/"
+]
+
+[start]
+cmd = "cd server && npm start"
+
