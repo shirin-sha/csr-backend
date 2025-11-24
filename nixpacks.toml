@@ -1,7 +1,12 @@
 providers = ["node"]
 
 [phases.setup]
-nixPkgs = ['nodejs_20']
+nixPkgs = [
+  'nodejs_20',
+  'python311',
+  'pkg-config',
+  'libvips'
+]
 
 [phases.install]
 cmds = [
@@ -16,6 +21,9 @@ cmds = [
   "rm -rf server/client/build",
   "cp -r client/build server/client/"
 ]
+
+[environment]
+SHARP_IGNORE_GLOBAL_LIBVIPS = "0"
 
 [start]
 cmd = "cd server && npm start"
