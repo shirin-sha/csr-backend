@@ -1,4 +1,3 @@
-[build]
 providers = ["node"]
 
 [phases.setup]
