@@ -5,7 +5,7 @@ nixPkgs = [
   'nodejs_20',
   'python311',
   'pkg-config',
-  'libvips'
+  'vips'
 ]
 
 [phases.install]
