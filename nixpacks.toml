@@ -1,5 +1,8 @@
 providers = ["node"]
 
+[shell]
+command = "/bin/sh -c"
+
 [phases.setup]
 nixPkgs = [
   'nodejs_20',
